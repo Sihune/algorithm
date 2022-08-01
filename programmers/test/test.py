@@ -17,11 +17,16 @@
 # print([i + j + k for i, j, k in a])
 
 
-def test(list):
-    list = [1]
-    return list
+# def test(list):
+#     list = [1]
+#     return list
+#
+# arg = [1, 3, 4]
+# test(arg)
+# print(arg)
 
 
-arg = [1, 3, 4]
-test(arg)
-print(arg)
+dict1 = {'hi': 2, 'hello': 3, 'python': 1}
+dict2 = {'hi': 1, 'hello': 1, 'python': 1}
+
+print(dict1-dict2)
