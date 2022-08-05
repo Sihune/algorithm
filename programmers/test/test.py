@@ -30,13 +30,19 @@
 # dict2 = {'hi': 1, 'hello': 1, 'python': 1}
 #
 # print(dict1-dict2)
+#
+# e = [[0,0]] * 2
+# print(e)
+#
+#
+# dict = {1:[1,2,3], 2:[2,3,4]}
+#
+# dict[1].append(5)
+#
+# print(dict)
 
-e = [[0,0]] * 2
-print(e)
 
+s = 'aaabbbbbbcccccc'
+s = s.replace('aa', '')
 
-dict = {1:[1,2,3], 2:[2,3,4]}
-
-dict[1].append(5)
-
-print(dict)
+print(s)
