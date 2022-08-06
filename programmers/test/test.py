@@ -41,8 +41,17 @@
 #
 # print(dict)
 
+import datetime as dt
 
 s = 'aaabbbbbbcccccc'
 s = s.replace('aa', '')
 
 print(s)
+
+s = 'CbaEA'
+
+print(sorted(s))
+
+t = dt.datetime.strptime("2022-07-31 11:51:11", "%Y-%m-%d %H:%M:%S")
+
+print(t + dt.timedelta(minutes=10))
